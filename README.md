@@ -17,5 +17,5 @@
   - Enhance the presentation of the fetched data by applying styling to ensure a visually appealing display.
 
 - Output Preview:
-  - A preview of the output, including a screenshot, can be viewed [here](![image](https://github.com/Laxmi01345/weather_website-using-api/assets/122423386/8b2926b6-b67a-4b8b-9a28-a39592267503)
+  - A preview of the output
   - ![image](https://github.com/Laxmi01345/weather_website-using-api/assets/122423386/9f94f4a0-791b-4969-82c9-af96c7a376ff)
