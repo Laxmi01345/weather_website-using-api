@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchbar" placeholder="Enter city name to get weather report "> 
+
+        </div>
+
+    </div>
+    <div class="container1">
+        <div class="template">
+            <h3 id="city"></h3>
+            <h4 class="currdate"></h4>
+            <img src="" class="images" alt="">
+             <br>
+            <a class="temp"></a>
+
+            <p id="climate"></p>
+            <div class="status">
+                <div class="status1">
+                    <label class="lab1">Humidity</label>
+                    <p class="humidity"></p>
+                    
+                </div>
+                <div class="status2">
+
+                    <label class="lab2">Wind_Speed</label>
+                    <p class="wind_speed"></p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container2">
+            <div class="partition1">
+                <div class="chart">
+                <canvas id="myChart" ></canvas>
+            </div>
+            </div>
+            <div class="partition2">
+                
+               
+            </div>
+            
+        </div>
+        
+       
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
